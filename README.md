@@ -1,4 +1,4 @@
-# STDFormer: Spatio Temporal Disentanglement Learning for 3D Human Mesh Recovery from Monocular Videos with Transformer
+# STDFormer: Spatio-Temporal Disentanglement Learning for 3D Human Mesh Recovery from Monocular Videos with Transformer
 
 # Introduction
 This is the official code repository for the Pytorch implementation of STDFormer
