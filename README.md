@@ -55,7 +55,7 @@ cd STDFormer
 python setup.py build develop
 
 # Install requirements
-pip install -r requirements.txt
+pip install -r requirements(1).txt
 pip install ./manopth/.
 pip install --upgrade azureml-core
 
