@@ -850,10 +850,10 @@ def parse_args():
     #########################################################
     # Loading/Saving checkpoints
     #########################################################
-    parser.add_argument("--output_dir", default='/HOME/HOME/Zhangweiyue/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/', type=str, required=False,
+    parser.add_argument("--output_dir", default='/HOME/HOME/............./output_3DPW', type=str, required=False,
                         help="The output directory to save checkpoint and test results.")
     parser.add_argument("--saving_epochs", default=1, type=int)
-    parser.add_argument("--resume_checkpoint", default="/HOME/HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-5-880/state_dict.bin", type=str, required=False,
+    parser.add_argument("--resume_checkpoint", default="/HOME/.../STDFormer/3dpw_checkpoint/state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
     parser.add_argument("--resume_epoch", default=0, type=int)
     parser.add_argument("--resume_mpjpe_best_epoch", default=0, type=float)
