@@ -63,3 +63,8 @@ pip install --upgrade azureml-core
 ```
 
 # Experiment
+## Training
+
+```bash
+python /HOME/your......path/STDFormer/src/tools/run_STDFormer_bodymesh_dp_3dpw.py
+```
