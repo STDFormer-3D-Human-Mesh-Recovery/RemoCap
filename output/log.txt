@@ -1,0 +1,328 @@
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO/models/fastmetro_checkpoint/FastMETRO-L-H64_smpl_3dpw_state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO/models/fastmetro_checkpoint/FastMETRO-L-H64_smpl_3dpw_state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint ./models/fastmetro_checkpoint/FastMETRO-L-H64_3dpw_state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint ./models/fastmetro_checkpoint/FastMETRO-L-H64_3dpw_state_dict.bin
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128062568
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153742462
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128063240
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153743134
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128063240
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153743134
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128059944
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153739838
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
+FastMETRO Inference INFO: The inference completed successfully. Finalizing run...
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Using 1 GPUs
+FastMETRO Inference INFO: Inference: Loading from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: => loading hrnet-v2-w64 model
+FastMETRO Inference INFO: Number of CNN Backbone learnable parameters: 128063240
+FastMETRO Inference INFO: Number of Transformer Encoder-Decoder learnable parameters: 25679894
+FastMETRO Inference INFO: Number of Overall learnable parameters: 153743134
+FastMETRO Inference INFO: Loading state dict from checkpoint /HOME/Zhongzhangnan/FastMETRO_EMA_adapt/output_3dpw_step8_ema_back_S_adapt_loss/checkpoint-142-24992/state_dict.bin
+FastMETRO Inference INFO: Run inference
