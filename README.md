@@ -21,6 +21,43 @@ Here we report the performance of STDFormer.
 
 ![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/87e25816-fcde-41be-a033-162b96292b86)
 
-# Runnin STDFormer
+# Running STDFormer
 The base codes are largely borrowed from [FasterMETRO](https://github.com/postech-ami/FastMETRO) and [PointHMR](https://github.com/DCVL-3D/PointHMR_release).
 ## Installation
+```bash
+# We suggest to create a new conda environment with python version 3.8
+conda create --name PHMR python=3.8
+
+# Activate conda environment
+conda activate PHMR
+
+# Install Pytorch that is compatible with your CUDA version
+# CUDA 10.1
+conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
+# CUDA 10.2
+conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.2 -c pytorch
+# CUDA 11.1
+conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+
+# Install apex
+git clone https://github.com/NVIDIA/apex.git
+cd apex
+python setup.py install --cuda_ext --cpp_ext
+cd ..
+
+# Install OpenDR
+pip install matplotlib
+pip install git+https://gitlab.eecs.umich.edu/ngv-python-modules/opendr.git
+
+# Install STDFormer
+git clone --recursive https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer.git
+cd STDFormer
+python setup.py build develop
+
+# Install requirements
+pip install -r requirements.txt
+pip install ./manopth/.
+pip install --upgrade azureml-core
+
+
+```
