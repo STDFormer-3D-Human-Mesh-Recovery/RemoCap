@@ -61,10 +61,17 @@ pip install --upgrade azureml-core
 
 
 ```
+## Dataset
+Please refer to [PointHMR](https://github.com/DCVL-3D/PointHMR_release). directly for dataset download and processing.
 
 # Experiment
 ## Training
 
 ```bash
 python /HOME/your......path/STDFormer/src/tools/run_STDFormer_bodymesh_dp_3dpw.py
+```
+```bash
+#You need change yourself path
+
+
 ```
