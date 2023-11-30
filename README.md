@@ -74,5 +74,25 @@ python /HOME/your......path/STDFormer/src/tools/run_STDFormer_bodymesh_dp_3dpw.p
 ```bash
 #You need change yourself path
 
-
+def parse_args():
+    parser = argparse.ArgumentParser()
+    #########################################################
+    # Data related arguments
+    #########################################################
+    parser.add_argument("--data_dir", default='datasets', type=str, required=False,
+                        help="Directory with all datasets, each in one subfolder")
+    parser.add_argument("--train_yaml", default='/HOME/HOME/data/PointHMR/datasets/3dpw/train.yaml', type=str, required=False,
+                        help="Yaml file with all data for training.")
+    parser.add_argument("--val_yaml", default='/HOME/HOME/data/PointHMR/datasets/3dpw/test_has_gender.yaml', type=str, required=False,
+                        help="Yaml file with all data for validation.")
+ ..........................
+..............................
+    #########################################################
+    # Loading/Saving checkpoints
+    #########################################################
+    parser.add_argument("--output_dir", default='/HOME/............./output_3DPWZ_result', type=str, required=False,
+                        help="The output directory to save checkpoint and test results.")
+    parser.add_argument("--saving_epochs", default=1, type=int)
+    parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/checkpoint-5-880/state_dict.bin", type=str, required=False,
+                        help="Path to specific checkpoint for resume training.")
 ```
