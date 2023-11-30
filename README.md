@@ -96,3 +96,5 @@ def parse_args():
     parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/checkpoint-5-880/state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
 ```
+# License
+This project is licensed under the terms of the MIT license.
