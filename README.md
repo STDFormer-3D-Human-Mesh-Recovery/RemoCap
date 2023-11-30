@@ -71,6 +71,10 @@ Please refer to [PointHMR](https://github.com/DCVL-3D/PointHMR_release). directl
 ```bash
 python /HOME/your......path/STDFormer/src/tools/run_STDFormer_bodymesh_dp_3dpw.py
 ```
+Please download the STDFormer weights we provide to /STDFormer/3dpw_checkpoint/state_dict.bin
+```bash
+[STDFormer_checkponit_3DPW](https://drive.google.com/file/d/1xiEAOaPhZyNI7M3xl3WnRJPnGF8Jn4rx/view?usp=sharing)
+```
 ```bash
 #You need change yourself path
 
@@ -93,7 +97,7 @@ def parse_args():
     parser.add_argument("--output_dir", default='/HOME/............./output_3DPWZ_result', type=str, required=False,
                         help="The output directory to save checkpoint and test results.")
     parser.add_argument("--saving_epochs", default=1, type=int)
-    parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/checkpoint-5-880/state_dict.bin", type=str, required=False,
+    parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
 ```
 # License
