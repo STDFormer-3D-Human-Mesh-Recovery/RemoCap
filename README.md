@@ -52,6 +52,7 @@ pip install git+https://gitlab.eecs.umich.edu/ngv-python-modules/opendr.git
 # Install STDFormer
 git clone --recursive https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer.git
 cd STDFormer
+Unzip the file STDFormer/src/model.zip
 python setup.py build develop
 
 # Install requirements
