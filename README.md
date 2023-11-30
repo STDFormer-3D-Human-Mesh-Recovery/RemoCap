@@ -26,10 +26,10 @@ The base codes are largely borrowed from [FasterMETRO](https://github.com/postec
 ## Installation
 ```bash
 # We suggest to create a new conda environment with python version 3.8
-conda create --name PHMR python=3.8
+conda create --name STDF python=3.8
 
 # Activate conda environment
-conda activate PHMR
+conda activate STDF
 
 # Install Pytorch that is compatible with your CUDA version
 # CUDA 10.1
