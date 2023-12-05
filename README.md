@@ -99,7 +99,7 @@ def parse_args():
     parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
 ```
-### Ablation experiment
+## Ablation experiment
 ![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/45303a65-e97a-428f-affb-37d8680ae3e7)
 
 Before the stage involving the participation of the transformer encoder and decoder in reconstruction, when extracting features from the target, one often encounters the following situations, especially in uncertain outdoor environments:
