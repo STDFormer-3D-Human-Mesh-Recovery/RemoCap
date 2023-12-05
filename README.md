@@ -71,7 +71,7 @@ Please refer to [PointHMR](https://github.com/DCVL-3D/PointHMR_release). directl
 ```bash
 python /HOME/your......path/STDFormer/src/tools/run_STDFormer_bodymesh_dp_3dpw.py
 ```
-Please download the STDFormer weights we provide to /STDFormer/3dpw_checkpoint/state_dict.bin
+Please download the STDFormer 3DPW Datatset weights we provide to /STDFormer/3dpw_checkpoint/state_dict.bin
 [STDFormer_checkponit_3DPW](https://drive.google.com/file/d/1xiEAOaPhZyNI7M3xl3WnRJPnGF8Jn4rx/view?usp=sharing)
 ### change path
 ```bash
