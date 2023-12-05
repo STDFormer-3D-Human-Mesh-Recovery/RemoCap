@@ -100,6 +100,8 @@ def parse_args():
                         help="Path to specific checkpoint for resume training.")
 ```
 ### Ablation experiment
+![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/45303a65-e97a-428f-affb-37d8680ae3e7)
+
 Before the stage involving the participation of the transformer encoder and decoder in reconstruction, when extracting features from the target, one often encounters the following situations, especially in uncertain outdoor environments:
 
 1. Multiple individuals appearing in the frame, interacting and correlating with the target person.
