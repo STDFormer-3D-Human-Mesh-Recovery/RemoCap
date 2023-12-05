@@ -99,5 +99,24 @@ def parse_args():
     parser.add_argument("--resume_checkpoint", default="/HOME/.........../STDFormer/3dpw_checkpoint/state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
 ```
+### Ablation experiment
+Before the stage involving the participation of the transformer encoder and decoder in reconstruction, when extracting features from the target, one often encounters the following situations, especially in uncertain outdoor environments:
+
+1. Multiple individuals appearing in the frame, interacting and correlating with the target person.
+2. The foreground and background in the frame are highly complex, with the foreground obscuring the target object, and low distinguishability between the background and the target object.
+3. For video tasks, the previously mentioned scenarios may involve motion, including the movement of the target object and the camera's own pose. Both stationary and moving non-target objects, or strong motion, can interfere with the extraction of target features. Particularly in video tasks, disturbances in motion features accumulate over the temporal axis, resulting in increased noise.
+
+The above three points are categorized by us as spatiotemporal feature coupling, which is the primary reason for the inaccurate extraction of target features.
+
+Therefore, the key to solving the feature coupling problem lies in decoupling the coupled features from both spatial and temporal perspectives to address the three points mentioned above.
+
+#### Spatial Decoupling:
+
+Spatial decoupling refers to, within a frame, using cross-channel attention learning to supervise target features and non-target features through different channel pooling and loss functions. After discretization, attention is concentrated on the channel where the target features are located, thereby enhancing the learning of target features within the frame and reducing attention to non-target features.
+
+#### Temporal Decoupling:
+
+Temporal decoupling involves forming a feature space based on sequential inputs, then learning the differences in features on the temporal sequence level through cross-channel learning. According to the attention weights of different channels, temporal decoupling is performed in the feature space to separate target features and non-target features on the temporal sequence level, which includes motion-related non-target features.
+
 # License
 This project is licensed under the terms of the MIT license.
