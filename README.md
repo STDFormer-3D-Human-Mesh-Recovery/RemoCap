@@ -120,5 +120,8 @@ Spatial decoupling refers to, within a frame, using cross-channel attention lear
 
 Temporal decoupling involves forming a feature space based on sequential inputs, then learning the differences in features on the temporal sequence level through cross-channel learning. According to the attention weights of different channels, temporal decoupling is performed in the feature space to separate target features and non-target features on the temporal sequence level, which includes motion-related non-target features.
 
+## Feature work
+In the future we consider being able to transfer our task to the reconstruction of the hand task, as our approach is model-free should give good results. On the other hand, we will continue to explore the advantages of the model-free approach over the parametric model approach in video tasks. For example, the model-free approach is able to adequately match the silhouette features, gender, and age of the target person when reconstructing the human body.
+
 # License
 This project is licensed under the terms of the MIT license.
