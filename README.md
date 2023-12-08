@@ -16,9 +16,9 @@ of mesh smoothness in frames while enhancing the accuracy of human motion estima
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction results, the stability against occlusion interference and the advantages of limb position alignment.
 
 Here we report the performance of STDFormer.
-![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/2cbeabbb-4f5a-45cb-bd1d-3a01b3a13cb9)
+![screenshot-20231209-012646](fig/screenshot-20231209-012646.png)
 
-![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/87e25816-fcde-41be-a033-162b96292b86)
+![screenshot-20231209-012734](fig/screenshot-20231209-012734.png)
 
 # Running STDFormer
 The base codes are largely borrowed from [FasterMETRO](https://github.com/postech-ami/FastMETRO) and [PointHMR](https://github.com/DCVL-3D/PointHMR_release).
@@ -99,7 +99,7 @@ def parse_args():
                         help="Path to specific checkpoint for resume training.")
 ```
 ## Ablation experiment
-![image](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer/assets/121299261/45303a65-e97a-428f-affb-37d8680ae3e7)
+![screenshot-20231209-012805](fig/screenshot-20231209-012805.png)
 
 Before the stage involving the participation of the transformer encoder and decoder in reconstruction, when extracting features from the target, one often encounters the following situations, especially in uncertain outdoor environments:
 
