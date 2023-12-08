@@ -11,7 +11,7 @@ demonstrate that STDFormer effectively alleviates the issue
 of mesh smoothness in frames while enhancing the accuracy of human motion estimation.
 
 # Result
-![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.png)
+![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
 
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction results, the stability against occlusion interference and the advantages of limb position alignment.
 
