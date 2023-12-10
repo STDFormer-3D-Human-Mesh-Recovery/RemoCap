@@ -11,6 +11,12 @@ demonstrate that STDFormer effectively alleviates the issue
 of mesh smoothness in frames while enhancing the accuracy of human motion estimation.
 
 # Result
+<video width="640" height="360" controls>
+  <source src="fig/r1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
 
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction results, the stability against occlusion interference and the advantages of limb position alignment.
@@ -111,6 +117,10 @@ The above three points are categorized by us as spatiotemporal feature coupling,
 
 Therefore, the key to solving the feature coupling problem lies in decoupling the coupled features from both spatial and temporal perspectives to address the three points mentioned above.
 
+<video width="640" height="360" controls>
+  <source src="fig/r2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 #### Spatial Decoupling:
 
 Spatial decoupling refers to, within a frame, using cross-channel attention learning to supervise target features and non-target features through different channel pooling and loss functions. After discretization, attention is concentrated on the channel where the target features are located, thereby enhancing the learning of target features within the frame and reducing attention to non-target features.
