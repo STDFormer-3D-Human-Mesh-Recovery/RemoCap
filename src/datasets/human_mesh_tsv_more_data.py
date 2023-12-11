@@ -121,9 +121,7 @@ class MeshTSVDataset(object):
         self.name_all = name_all
         self.name_list_in8 = []
         step = self.step
-        # for key in name_all.keys():
-        # for key in ["downtown_rampAndStairs_00"]:
-        for key in ["downtown_bus_00"]:
+	for key in name_all.keys():
             this_name_all = self.name_all[key]
             name_ =  self.get_img_key(this_name_all[1][0])
 
