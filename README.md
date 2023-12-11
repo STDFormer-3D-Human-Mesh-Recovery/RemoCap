@@ -1,7 +1,7 @@
 # STDFormer: Spatio-Temporal Disentanglement Learning for 3D Human Mesh Recovery from Monocular Videos with Transformer
 
 # Introduction
-This is the official code repository for the Pytorch implementation of STDFormer
+This is the official code repository [Code](https://github.com/STDFormer-3D-Human-Mesh-Recovery/STDFormer) for the Pytorch implementation of STDFormer
 More details in [Project page](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/)
 # Abstract
 ![pipline](fig/pipline.png)
@@ -124,10 +124,6 @@ The above three points are categorized by us as spatiotemporal feature coupling,
 
 Therefore, the key to solving the feature coupling problem lies in decoupling the coupled features from both spatial and temporal perspectives to address the three points mentioned above.
 
-<video width="640" height="360" controls>
-  <source src="fig/r2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 #### Spatial Decoupling:
 
 Spatial decoupling refers to, within a frame, using cross-channel attention learning to supervise target features and non-target features through different channel pooling and loss functions. After discretization, attention is concentrated on the channel where the target features are located, thereby enhancing the learning of target features within the frame and reducing attention to non-target features.
