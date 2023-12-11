@@ -2,7 +2,7 @@
 
 # Introduction
 This is the official code repository for the Pytorch implementation of STDFormer
-More details in [Project page](https://xushuolin.github.io/STDFormer/)
+More details in [Project page](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/)
 # Abstract
 ![pipline](fig/pipline.png)
 A novel spatio-temporal disentanglement method, STDFormer is presented, specifically designed for reconstructing sequential 3D human meshes from monocular videos. Precise and stable dynamic meshes are recovered, significantly reducing the phenomenon of human mesh distortion and mesh-vertex jitter. STDFormer for the first time adopts a vertex-based paradigm, featuring two main innovative points: the spatial disentanglement (SD) and the temproal disentanglement (TD). The former is dedicated to extracting precise target features from coupled spatial information in frames, with a particular focus on feature extraction in complex backgrounds, and the latter, through the integration of temporal information across frames, effectively disentangles features in both spatial and temporal dimensions. The process mitigates estimation errors in inter-frame target features, ensuring highly accurate and motion-consistent reconstruction of human motion features in videos.  In comparisons of the SOTA
@@ -11,11 +11,6 @@ demonstrate that STDFormer effectively alleviates the issue
 of mesh smoothness in frames while enhancing the accuracy of human motion estimation.
 
 # Result
-<video width="640" height="360" controls>
-  <source src="fig/r1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
 
@@ -26,8 +21,20 @@ Here we report the performance of STDFormer.
 
 ![screenshot-20231209-012734](fig/screenshot-20231209-012734.png)
 
+<video width="640" height="360" controls>
+  <source src="fig/r1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Here's the result of our reconstruction
+
+<video width="640" height="360" controls>
+  <source src="fig/r2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Here are the results of our reconstruction comparing the current SOTA methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
+
 # Running STDFormer
-The base codes are largely borrowed from [FasterMETRO](https://github.com/postech-ami/FastMETRO) and [PointHMR](https://github.com/DCVL-3D/PointHMR_release).
+The base codes are largely borrowed from [FasterMETRO](https://github.com/postech-ami/FastMETRO) and [PointHMR](https://github.com/sxl142/GLoT).
 ## Installation
 ```bash
 # We suggest to create a new conda environment with python version 3.8
