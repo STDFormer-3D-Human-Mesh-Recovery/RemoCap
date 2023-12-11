@@ -22,15 +22,17 @@ Here we report the performance of STDFormer.
 ![screenshot-20231209-012734](fig/screenshot-20231209-012734.png)
 
 <video width="640" height="360" controls>
-  <source src="fig/r1.mp4" type="video/mp4">
+  <source src="fig/r6.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 Here's the result of our reconstruction
 
 <video width="640" height="360" controls>
-  <source src="fig/r2.mp4" type="video/mp4">
+  <source src="fig/r4.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 Here are the results of our reconstruction comparing the current SOTA methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
 
 # Running STDFormer
