@@ -28,11 +28,12 @@ import cv2
 import sys 
 from torch.nn import functional as F
 # sys.path.remove('/HOME/HOME/fzh')
-sys.path.append("/HOME/HOME/Zhongzhangnan/FastMETRO_EMA_adapt")
+## !!!!!!!!!!!!!!!!!!!!!!!!!!!  CHange the path to your own path !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+sys.path.append("/HOME/.../STDFormer)
 
 
 from src.tools.loss_change import calc_loss_SingleMesh_2D3DVelocity_changeWeight_no_heatmap,mean_velocity_error_train_2
-from src.modeling.model.modeling_fastmetro_EMA_4_S_adapt import FastMETRO_Body_Network as FastMETRO_Network
+from src.modeling.model.modeling_STDFormer import STDFormer_Body_Network as STDFormer_Network
 from src.modeling._smpl import SMPL, Mesh
 from src.modeling.hrnet.hrnet_cls_net_featmaps_adapt import get_cls_net
 from src.modeling.hrnet.config import config as hrnet_config
@@ -843,9 +844,9 @@ def parse_args():
     #########################################################
     parser.add_argument("--data_dir", default='datasets', type=str, required=False,
                         help="Directory with all datasets, each in one subfolder")
-    parser.add_argument("--train_yaml", default='/HOME/HOME/data/PointHMR/datasets/human3.6m/train.yaml', type=str, required=False,
+    parser.add_argument("--train_yaml", default='/HOME/data/datasets/human3.6m/train.yaml', type=str, required=False,
                         help="Yaml file with all data for training.")
-    parser.add_argument("--val_yaml", default='/HOME/HOME/data/PointHMR/datasets/human3.6m/valid.protocol2.yaml', type=str, required=False,
+    parser.add_argument("--val_yaml", default='/HOME/data/datasets/human3.6m/valid.protocol2.yaml', type=str, required=False,
                         help="Yaml file with all data for validation.")
     parser.add_argument("--num_workers", default=8, type=int, 
                         help="Workers in dataloader.")
@@ -854,10 +855,10 @@ def parse_args():
     #########################################################
     # Loading/Saving checkpoints
     #########################################################
-    parser.add_argument("--output_dir", default='output_human36_step8_ema_back_loss/', type=str, required=False,
+    parser.add_argument("--output_dir", default='output_human36_step8', type=str, required=False,
                         help="The output directory to save checkpoint and test results.")
     parser.add_argument("--saving_epochs", default=1, type=int)
-    parser.add_argument("--resume_checkpoint", default="/HOME/HOME/Zhongzhangnan/FastMETRO_EMA_adapt/models/fastmetro_checkpoint/FastMETRO-L-H64_smpl_h36m_state_dict.bin", type=str, required=False,
+    parser.add_argument("--resume_checkpoint", default="/HOME/............./FastMETRO-L-H64_smpl_h36m_state_dict.bin", type=str, required=False,
                         help="Path to specific checkpoint for resume training.")
     parser.add_argument("--resume_epoch", default=0, type=int)
     parser.add_argument("--resume_mpjpe_best_epoch", default=0, type=float)
