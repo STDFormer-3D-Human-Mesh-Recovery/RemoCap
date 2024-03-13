@@ -36,7 +36,7 @@ Here we report the performance of RemoCap.
 
 Here are the results of our reconstruction comparing the current SOTA
 methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
-![compare1](fig/compare1.png)
+![compare1](fig/bce76c7bf4f8b4c08df6bbdbe07f6bb.png)
 
 # Running STDFormer
 
