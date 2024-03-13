@@ -3,7 +3,7 @@
 # Introduction
 
 This is the official code repository [Code](https://github.com/STDFormer-3D-Human-Mesh-Recovery/RemoCap) for the Pytorch
-implementation of RemoCap More details in [Project page](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/)
+implementation of RemoCap More details in [Project page](http://124.70.164.141:8084/)
 
 # Abstract
 
