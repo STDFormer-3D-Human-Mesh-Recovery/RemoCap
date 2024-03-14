@@ -8,6 +8,7 @@ implementation of RemoCap More details in [Project page](http://124.70.164.141:8
 # Abstract
 
 ![pipline](fig/pipline.png)
+<br>
 Reconstructing 3D human bodies from realistic motion sequences remains a challenge due to pervasive and complex
 occlusions. Current methods struggle to capture the dynamics of occluded body parts, leading to model penetration and
 distorted motion. RemoCap leverages Spatial Disentanglement (SD) and Motion Disentanglement (MD) to overcome these
@@ -25,13 +26,13 @@ MPJPE (72.7), and PA-MPJPE (44.1) metrics. Codes are available in the appendix.
 # Result
 
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
-
+<br>
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction
 results, the stability against occlusion interference and the advantages of limb position alignment.
 
 ### Here we report the performance of RemoCap.
 ![t1](fig/t1.png)
-
+<br>
 Table compares the performance of RemoCap with state-of-the-art methods on the 3DPW and Human3.6M datasets using MPJPE,
 PA-MPJPE, and MPVPE metrics. RemoCap outperforms all methods on 3DPW, particularly in MPVPE.
 
