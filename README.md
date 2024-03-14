@@ -30,6 +30,7 @@ results, the stability against occlusion interference and the advantages of limb
 
 ### Here we report the performance of RemoCap.
 ![t1](fig/t1.png)
+
 Table compares the performance of RemoCap with state-of-the-art methods on the 3DPW and Human3.6M datasets using MPJPE,
 PA-MPJPE, and MPVPE metrics. RemoCap outperforms all methods on 3DPW, particularly in MPVPE.
 
