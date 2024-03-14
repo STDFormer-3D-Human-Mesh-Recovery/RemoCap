@@ -25,6 +25,7 @@ MPJPE (72.7), and PA-MPJPE (44.1) metrics. Codes are available in the appendix.
 # Result
 
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
+
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction
 results, the stability against occlusion interference and the advantages of limb position alignment.
 
