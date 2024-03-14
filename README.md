@@ -25,17 +25,23 @@ MPJPE (72.7), and PA-MPJPE (44.1) metrics. Codes are available in the appendix.
 # Result
 
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
-
 The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction
 results, the stability against occlusion interference and the advantages of limb position alignment.
 
-Here we report the performance of RemoCap.
+### Here we report the performance of RemoCap.
 ![t1](fig/t1.png)
-![t2](fig/t2.png)
-![t3](fig/t3.png)
+Table compares the performance of RemoCap with state-of-the-art methods on the 3DPW and Human3.6M datasets using MPJPE,
+PA-MPJPE, and MPVPE metrics. RemoCap outperforms all methods on 3DPW, particularly in MPVPE.
 
-Here are the results of our reconstruction comparing the current SOTA
-methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
+
+On the 3DPW dataset, RemoCap demonstrates significant improvements over existing methods, particularly when dealing with
+severe occlusion. Compared to Fastmetro,**RemoCap achieves reductions of 2.52 mm, 0.82 mm, and
+0.54 mm in MPVPE, MPJPE, and PA-MPJPE**, respectively. Similarly, RemoCap outperforms GloT by a
+substantial margin across all three metrics. These results highlight the effectiveness of RemoCap in tackling the
+challenging task of 3D human body mesh reconstruction under complex occlusion conditions.
+
+
+### Here are the results of our reconstruction comparing the current SOTA methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
 ![bce76c7bf4f8b4c08df6bbdbe07f6bb](fig/bce76c7bf4f8b4c08df6bbdbe07f6bb.png)
 
 # Running RemoCap
@@ -152,8 +158,8 @@ temporal perspectives to address the three points mentioned above.
 
 #### Spatial Disentanglement:
 
-Spatial disentanglement refers to, within a frame, using cross-channel attention learning to supervise target features and
-non-target features through different channel pooling and loss functions. After discretization, attention is
+Spatial disentanglement refers to, within a frame, using cross-channel attention learning to supervise target features
+and non-target features through different channel pooling and loss functions. After discretization, attention is
 concentrated on the channel where the target features are located, thereby enhancing the learning of target features
 within the frame and reducing attention to non-target features.
 
