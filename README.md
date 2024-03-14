@@ -8,40 +8,18 @@ implementation of RemoCap More details in [Project page](http://124.70.164.141:8
 # Abstract
 
 ![pipline](fig/pipline.png)
-<br>
-Reconstructing 3D human bodies from realistic motion sequences remains a challenge due to pervasive and complex
-occlusions. Current methods struggle to capture the dynamics of occluded body parts, leading to model penetration and
-distorted motion. RemoCap leverages Spatial Disentanglement (SD) and Motion Disentanglement (MD) to overcome these
-limitations. SD addresses occlusion interference between the target human body and surrounding objects. It achieves this
-by disentangling target features along the dimension axis. By aligning features based on their spatial positions in each
-dimension, SD isolates the target object's response within a global window, enabling accurate capture despite
-occlusions. The MD module employs a channel-wise temporal shuffling strategy to simulate diverse scene dynamics. This
-process effectively disentangles motion features, allowing RemoCap to reconstruct occluded parts with greater fidelity.
-Furthermore, this paper introduces a sequence velocity loss that promotes temporal coherence. This loss constrains
-inter-frame velocity errors, ensuring the predicted motion exhibits realistic consistency. Extensive comparisons with
-state-of-the-art (SOTA) methods on benchmark datasets demonstrate RemoCap's superior performance in 3D human body
-reconstruction. On the 3DPW dataset, RemoCap surpasses all competitors, achieving the best results in MPVPE (81.9),
-MPJPE (72.7), and PA-MPJPE (44.1) metrics. Codes are available in the appendix.
+![w1](fig/w1.png)
+
 
 # Result
 
 ![ff963148652c68d6a8d21770c9dd530](fig/ff963148652c68d6a8d21770c9dd530.jpg)
-<br>
-The figure show the performance of our model in a sequential video task, showing the stability of the reconstruction
-results, the stability against occlusion interference and the advantages of limb position alignment.
+![w2](fig/w2.png)
 
 ### Here we report the performance of RemoCap.
 ![t1](fig/t1.png)
-<br>
-Table compares the performance of RemoCap with state-of-the-art methods on the 3DPW and Human3.6M datasets using MPJPE,
-PA-MPJPE, and MPVPE metrics. RemoCap outperforms all methods on 3DPW, particularly in MPVPE.
+![w3](fig/w3.png)
 
-
-On the 3DPW dataset, RemoCap demonstrates significant improvements over existing methods, particularly when dealing with
-severe occlusion. Compared to Fastmetro,**RemoCap achieves reductions of 2.52 mm, 0.82 mm, and
-0.54 mm in MPVPE, MPJPE, and PA-MPJPE**, respectively. Similarly, RemoCap outperforms GloT by a
-substantial margin across all three metrics. These results highlight the effectiveness of RemoCap in tackling the
-challenging task of 3D human body mesh reconstruction under complex occlusion conditions.
 
 
 ### Here are the results of our reconstruction comparing the current SOTA methods [GloT](https://stdformer-3d-human-mesh-recovery.github.io/STDFormer/).
